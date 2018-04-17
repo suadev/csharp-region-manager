@@ -8,8 +8,7 @@ import {
     Range,
     TextEditor,
     Selection,
-    Uri,
-    WorkspaceConfiguration
+    Uri
 } from "vscode";
 
 export function activate(context: ExtensionContext) {
