@@ -51,7 +51,7 @@
                 },
                 "csharp-region-manager.innerSpacing": {
                     "type": "boolean",
-                    "default": false,
+                    "default": true,
                     "description": "Add empty line after #region and before #endregion"
                 }
             }
