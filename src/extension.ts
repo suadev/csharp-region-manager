@@ -37,7 +37,7 @@ function setLanguageSettings(langId: string) {
     regionEndKey = "#endregion";
     regionRegex = /#(region|endregion).*\r\n/;
   }
-  else if (langId === "javascript" || langId === "javascriptreact" || langId === "typescript") {
+  else if (langId === "javascript" || langId === "javascriptreact" || langId === "typescript" || langId ==="lsl") {
     regionStartKey = "//#region";
     regionEndKey = "//#endregion";
     regionRegex = /\/\/#(region|endregion).*\r\n/;
